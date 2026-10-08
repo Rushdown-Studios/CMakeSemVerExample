@@ -16,6 +16,13 @@ This repo goes with a blog post. Each commit is one step in the life of a toy li
 
 The demo links to `superAwesome::superAwesomeLibrary`, the same target name a downstream user gets from `find_package(superAwesome)`. The library defines this name as an alias of its own target, so the demo links to it the same way whether the library is built in the same tree or installed.
 
+## How to push a new tag
+
+```sh
+git tag -a v0.1.0 -m "superAwesome 0.1.0"
+git push origin v0.1.0
+```
+
 ## Commit history
 
 Each commit captures the library at a specific point:
