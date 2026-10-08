@@ -11,6 +11,9 @@ int main() {
     auto value = rd::SuperAwesomeFunction();
 #elif SUPER_AWESOME_VERSION == 200 // version 0.2.0
     auto value = rd::SuperAwesomeFunction(1);
+#elif SUPER_AWESOME_VERSION == 10000 // version 1.0.0
+    auto value = rd::SuperAwesomeFunction(2);
+    std::printf("We pet the dog, %s\n", rd::PetDog());
 #endif
 
     std::printf("Super Awesome Function returned: %d", value);
