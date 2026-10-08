@@ -2,6 +2,6 @@
 
 namespace rd {
 
-int SuperAwesomeFunction();
+int SuperAwesomeFunction(int numToAdd);
 
 } // namespace rd

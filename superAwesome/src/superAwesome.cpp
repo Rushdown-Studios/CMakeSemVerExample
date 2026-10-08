@@ -3,8 +3,8 @@
 
 namespace rd {
 
-int SuperAwesomeFunction() {
-	return 42;
+int SuperAwesomeFunction(int numToAdd) {
+	return 42 + numToAdd;
 }
 
 } // namespace rd
